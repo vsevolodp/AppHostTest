@@ -7,6 +7,7 @@ using Lokad.Cloud.AppHost.Framework;
 
 namespace Source
 {
+    [Serializable]
     public class FileDeploymentReader : IDeploymentReader
     {
         readonly string _basePath;
