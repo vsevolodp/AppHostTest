@@ -30,6 +30,7 @@ namespace Source
             _cts = new CancellationTokenSource();
 
             var observer = new HostObserverSubject();
+            observer.Subscribe(Console.WriteLine);
 
             var fileDeploymentReader = new FileDeploymentReader(Directory.GetCurrentDirectory(), "deployment.xml");
 
