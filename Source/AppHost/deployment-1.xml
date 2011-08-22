@@ -1,8 +1,13 @@
 ﻿<Deployment>
   <Cells>
     <Cell name="cell-1">
-      <Assemblies name="cell-1-car" />
-      <Runner typeName="typeName, assemblyName" />
+      <Assemblies name="App1.zip" />
+      <Runner typeName="App1.EntryPoint, App1" />
+      <Settings></Settings>
+    </Cell>
+    <Cell name="cell-2">
+      <Assemblies name="App2.zip" />
+      <Runner typeName="App2.EntryPoint, App2" />
       <Settings></Settings>
     </Cell>
   </Cells>

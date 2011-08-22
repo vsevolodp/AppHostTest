@@ -23,6 +23,7 @@ namespace App1
             var bytes = _encoding.GetBytes(line);
 
             _stream.Write(bytes, 0, bytes.Length);
+            _stream.Flush();
         }
     }
 }
