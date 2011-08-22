@@ -32,7 +32,8 @@ namespace Source
             var observer = new HostObserverSubject();
             observer.Subscribe(Console.WriteLine);
 
-            var fileDeploymentReader = new FileDeploymentReader(Directory.GetCurrentDirectory(), "deployment.xml");
+            var basePath = Path.GetDirectoryName(typeof (Program).Assembly.Location);
+            var fileDeploymentReader = new FileDeploymentReader(basePath, "head.xml");
 
             var context = new HostContext(observer, fileDeploymentReader);
 
