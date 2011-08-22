@@ -1,0 +1,9 @@
+﻿<Deployment>
+  <Cells>
+    <Cell name="cell-1">
+      <Assemblies name="cell-1-car" />
+      <Runner typeName="typeName, assemblyName" />
+      <Settings></Settings>
+    </Cell>
+  </Cells>
+</Deployment>
