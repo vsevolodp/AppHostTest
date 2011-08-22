@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Source", "Source\Source.csproj", "{E59FE163-63D6-4F2D-9C04-2229AB31D106}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppHost", "Source\AppHost\AppHost.csproj", "{E59FE163-63D6-4F2D-9C04-2229AB31D106}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
